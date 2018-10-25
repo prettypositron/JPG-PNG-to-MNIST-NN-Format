@@ -22,7 +22,7 @@ for name in Names:
 
 	for filename in FileList:
 
-		label = int(filename.split('/')[2])
+		label = int(filename.split('\\')[2])
 
 		Im = Image.open(filename)
 
